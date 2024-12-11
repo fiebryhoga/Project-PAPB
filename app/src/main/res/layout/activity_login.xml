@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:padding="16dp"
+	android:gravity="center"
+	android:background="#f5f5f5">
+
+	<!-- Logo atau Gambar Aplikasi -->
+	<ImageView
+		android:id="@+id/logo"
+		android:layout_width="100dp"
+		android:layout_height="100dp"
+		android:src="@drawable/ic_launcher_foreground"
+		android:layout_gravity="center"
+		android:layout_marginBottom="24dp" />
+
+	<!-- Input Email -->
+	<EditText
+		android:id="@+id/inputEmail"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="Email"
+		android:inputType="textEmailAddress"
+		android:padding="12dp"
+		android:background="@color/white"
+		android:layout_marginBottom="16dp" />
+
+	<!-- Input Password -->
+	<EditText
+		android:id="@+id/inputPassword"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="Password"
+		android:inputType="textPassword"
+		android:padding="12dp"
+		android:background="@color/white"
+		android:layout_marginBottom="24dp" />
+
+	<!-- Tombol Login -->
+	<Button
+		android:id="@+id/btnLogin"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Login"
+		android:padding="12dp"
+		android:backgroundTint="@color/white"
+		android:textColor="@android:color/white"
+		android:layout_marginBottom="16dp" />
+
+	<!-- Tombol Daftar -->
+	<TextView
+		android:id="@+id/tvRegister"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Belum punya akun? Daftar di sini"
+		android:textColor="@color/white"
+		android:textSize="14sp"
+		android:layout_gravity="center" />
+
+</LinearLayout>

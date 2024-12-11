@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:gravity="center"
+	android:padding="16dp"
+	android:background="@color/white">
+
+	<!-- Title -->
+	<TextView
+		android:id="@+id/tv_welcome"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Selamat Datang di Aplikasi Pendaftaran Siswa Baru"
+		android:textSize="20sp"
+		android:textColor="@color/black"
+		android:gravity="center"
+		android:layout_marginBottom="32dp"/>
+
+	<!-- Button Add Siswa -->
+	<Button
+		android:id="@+id/btn_add_siswa"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Tambah Siswa"
+		android:layout_marginBottom="16dp"
+		android:padding="12dp"
+		android:backgroundTint="@color/teal_200"
+		android:textColor="@color/white"/>
+
+
+	<!-- Button Lihat Pendaftar -->
+	<Button
+		android:id="@+id/btn_lihat_pendaftar"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Lihat Pendaftar"
+		android:padding="12dp"
+		android:backgroundTint="@color/teal_700"
+		android:textColor="@color/white"/>
+
+	<!-- Button Logout -->
+	<Button
+		android:id="@+id/btn_logout"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Log Out"
+		android:padding="12dp"
+		android:backgroundTint="@color/teal_200"
+		android:textColor="@color/white"/>
+</LinearLayout>

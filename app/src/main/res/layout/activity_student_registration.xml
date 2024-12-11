@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:padding="16dp"
+	android:background="@android:color/white">
+
+	<!-- Input Nama Siswa -->
+	<EditText
+		android:id="@+id/inputNamaSiswa"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="Nama Siswa"
+		android:inputType="textPersonName"
+		android:padding="12dp"
+		android:background="@android:drawable/edit_text" />
+
+	<!-- Input Alamat -->
+	<EditText
+		android:id="@+id/inputAlamatSiswa"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="Alamat"
+		android:inputType="textPostalAddress"
+		android:padding="12dp"
+		android:layout_marginTop="8dp"
+		android:background="@android:drawable/edit_text" />
+
+	<!-- Input Umur -->
+	<EditText
+		android:id="@+id/inputUmurSiswa"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="Umur"
+		android:inputType="number"
+		android:padding="12dp"
+		android:layout_marginTop="8dp"
+		android:background="@android:drawable/edit_text" />
+
+	<!-- Input Asal Sekolah -->
+	<EditText
+		android:id="@+id/inputAsalSekolah"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="Asal Sekolah"
+		android:inputType="text"
+		android:padding="12dp"
+		android:layout_marginTop="8dp"
+		android:background="@android:drawable/edit_text" />
+
+	<!-- Tombol Simpan -->
+	<Button
+		android:id="@+id/btnSimpan"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Simpan"
+		android:layout_marginTop="16dp"
+		android:padding="12dp"
+		android:backgroundTint="@android:color/holo_blue_light"
+		android:textColor="@android:color/white"
+		android:textStyle="bold" />
+
+
+	<ProgressBar
+		android:id="@+id/progressBar"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:visibility="gone"
+		android:layout_gravity="center" />
+
+
+</LinearLayout>
